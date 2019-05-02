@@ -1,0 +1,141 @@
+.content-logo{
+	background: #343a40;
+	    background: #343a40;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+}
+.login-cloud{
+position: relative;
+height: 100vh;
+}
+.content-back{
+	position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.content-logo img{
+	width: 60px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+/*.content-fix{
+	position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}*/
+.content-form{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.form-login div{
+	display: flex;
+	flex-direction: column;
+}
+.form-login label{
+	color: black;
+	padding-top: 15px;
+}
+
+.border-form{
+	border: 1px solid #c0c0c0;
+    background: #f7f6f6;
+   
+	padding: 0 30px 30px 30px;
+}
+.form-login input[type="submit"]{
+	background-color: #f13a12 !important;
+    border-color: #f13a12 !important;
+    width: 65px;
+    font-size: 13px;
+    float: right;
+    margin-top: 30px;
+}
+.btn-submit{
+	float: right;
+}
+
+.form-login input[type="email"],
+.form-login input[type="password"]{
+	display: block;
+    width: 100%;
+    height: calc(2.25rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.content-card{
+    padding-top: 20vh !important;
+}
+.content-card a, .content-card-plan a{
+    color: white;
+}
+.project, .project-cloud{
+
+    border-radius: 5px;
+    color: white;
+    padding: 29px;
+    width: 99%;
+}
+
+.project{
+        background: #ac08ff;
+}
+.project-cloud{
+        background: #93f361;
+}
+
+.card-project{
+        background: #f0f5d3;
+    color: #615c5c;
+    padding: 11px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+   box-shadow: 1px 1px 3px #0000007a;
+}
+
+.title-card{
+    font-size: 25px;
+}
+.content-card-plan{
+     padding-top: 10vh !important;
+     padding: 0;
+    margin: 0;
+}
+
+.two-m{
+        background: #d0a765;
+}
+.three-m{
+        background: #b7584d;
+}
+.fourt-m{
+    background: #ab1502;
+}
+.card-project small{
+        position: absolute;
+    top: 10px;
+    right: 30px;
+    color: white;
+    padding: 0 5px;
+    background: #61bd4f;
+    border-radius: 4px;
+}
+.defeated{
+        display: flex;
+    justify-content: space-between;
+}

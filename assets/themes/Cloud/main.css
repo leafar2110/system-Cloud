@@ -82,13 +82,13 @@ height: 100vh;
     padding-top: 20vh !important;
 }
 .content-card a, .content-card-plan a{
-    color: white;
+    color: #615c5c;
 }
 .project, .project-cloud{
 
     border-radius: 5px;
     color: white;
-    padding: 29px;
+    padding: 15px;
     width: 99%;
 }
 
@@ -119,12 +119,22 @@ height: 100vh;
 
 .two-m{
         background: #d0a765;
+            max-height: 85vh;
+    overflow-y: auto;
 }
 .three-m{
         background: #b7584d;
+            max-height: 85vh;
+    overflow-y: auto;
 }
 .fourt-m{
     background: #ab1502;
+        max-height: 85vh;
+    overflow-y: auto;
+}
+.one-m{
+        max-height: 85vh;
+    overflow-y: auto;
 }
 .card-project small{
         position: absolute;
@@ -138,4 +148,26 @@ height: 100vh;
 .defeated{
         display: flex;
     justify-content: space-between;
+
+
 }
+#style-1::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar
+{
+    width: 7px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #c1c3c5;
+}
+
